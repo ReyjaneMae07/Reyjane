@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 PAGE WEBSITE</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 70px; /* Adjust according to navbar height */
+        }
+
+        #home {
+            background-color: #FFB6C1; /* Light Pink */
+            color: white;
+        }
+
+        #about {
+            background-color: #FEE7F0; /* Light Pink */
+            color: #333; /* Dark Gray */
+        }
+
+        #contact {
+            background-color: #BA55D3; /* Medium Purple */
+            color: white;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: #333; /* Dark Gray */
+        }
+
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: #FF69B4; /* Pink */
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="70">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-pink fixed-top">
+        <a class="navbar-brand" href="#home">3 PAGE WEBSITE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="container-fluid bg-pink text-white d-flex align-items-center justify-content-center" style="height:100vh;">
+        <div class="text-center">
+            <h1>Welcome</h1>
+            <p>This website is dedicated to providing you with valuable information</p>
+            
+        </div>
+    </section>
+
+    <section id="about" class="container-fluid bg-light text-dark d-flex align-items-center justify-content-center" style="height:100vh;">
+        <div class="text-center">
+            <h1>About Me</h1>
+            <p>Reyjane Mae G. Barrio</p>
+            <p>DS3A</p>
+            
+        </div>
+    </section>
+
+    <section id="contact" class="container-fluid bg-purple text-white d-flex align-items-center justify-content-center" style="height:100vh;">
+        <div class="text-center">
+            <h1>Contact Me</h1>
+            <p>reyjanemaebarrio@gmail.com</p>
+            
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
